@@ -1,0 +1,20 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --up: #d03050;
+  --down: #00a05a;
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --border: #e4e8ee;
+  --text: #1f2329;
+  --muted: #8a919e;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
+
+#app { min-height: 100vh; }
